@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#app-container {
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#search-container {
+    margin-top: 15px;
+}
+
+#city-input {
+    padding: 8px;
+    margin-right: 5px;
+}
+
+#search-button {
+    padding: 8px;
+    cursor: pointer;
+}
